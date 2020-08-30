@@ -5,8 +5,6 @@ mutation Register($username: String!, $password: String!) {
       message
     }
     user {
-      createdAt
-      updatedAt
       id
       username
     }
